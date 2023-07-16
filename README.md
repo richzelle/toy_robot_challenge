@@ -9,7 +9,7 @@ move that would cause the robot to fall must be ignored.
 ## Supported Commands
 * **PLACE X,Y,F**
   <br>Puts the toy robot on the table in position X, Y and facing NORTH, SOUTH, EAST or WEST. The origin (0,0) is the SOUTH WEST most corner of the table.
-  <br>```PLACE must be invoked first before any other commands.```
+  <br>PLACE must be invoked first before any other commands.
 
 * **MOVE**
   <br>Moves the toy robot one unit forward in the direction it is currently facing.
@@ -70,8 +70,7 @@ robot.
     Please enter a command: REPORT
     0,1,NORTH
     ```
-
-    <br>```To exit the application, press ctrl+c.```
+    To exit the application, press ctrl+c.
 
 5. To run the tests, go to build/tests and run toy_robot_tests.
    <br>All test cases will automatically run via googletest.
