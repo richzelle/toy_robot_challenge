@@ -30,7 +30,13 @@ robot.
 
 ## Prerequisites
 1. Install GCC C++ compiler (g++).
-    * For Windows, follow the **Installation** instructions on the <a href="https://www.msys2.org/">MSYS2</a>  to install Mingw-w64.
+    * For Windows, follow these steps:
+      * Install Mingw-w64, see the **Installation** instructions on the <a href="https://www.msys2.org/">MSYS2</a>.
+      * Install the Mingw-w64 toolchain by running the pacman command in a MSYS2 terminal.
+        ```
+        pacman -S --needed base-devel mingw-w64-x86_64-toolchain
+        ```
+      * Add the path to your Mingw-w64 bin folder to the Windows PATH environment variable.
     * For Linux/Ubuntu, execute the following commands:
       ```
       sudo apt-get update
